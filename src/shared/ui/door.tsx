@@ -1,5 +1,6 @@
-import * as THREE from 'three'
+/* eslint-disable react/no-unknown-property */
 import { useGLTF } from '@react-three/drei'
+import * as THREE from 'three'
 import { GLTF } from 'three-stdlib'
 
 type GLTFResult = GLTF & {
